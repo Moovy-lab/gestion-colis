@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/colis
+    username: postgres
+    password: ghost
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
